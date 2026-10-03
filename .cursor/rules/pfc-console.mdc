@@ -1,0 +1,11 @@
+---
+description: PFC Console 实现前先对齐思路，确认后再写完整代码
+alwaysApply: true
+---
+
+# PFC Console
+
+- 栈：Next.js App Router、TypeScript strict、Tailwind、shadcn 风格组件、Zustand、TanStack Query、RHF+Zod、Recharts、wagmi/viem/RainbowKit。
+- 视觉：Fintech 极简；主色 Indigo `#4F46E5`；Dark 用 Slate-950。
+- 每个模块动手改代码前，先用简短中文说明实现思路，等确认后再输出完整代码。
+- 禁止 `any`；API 信封必须有类型；密钥不进仓库。

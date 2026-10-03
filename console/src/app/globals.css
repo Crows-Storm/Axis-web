@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 248 250 252;
+  --foreground: 15 23 42;
+}
+
+.dark {
+  --background: 2 6 23;
+  --foreground: 241 245 249;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background-color: rgb(var(--background));
+  color: rgb(var(--foreground));
+}
+
+.font-mono {
+  font-variant-numeric: tabular-nums;
+}
